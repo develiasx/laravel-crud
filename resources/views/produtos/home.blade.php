@@ -7,8 +7,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Bem vindo a Construtora Neolítica</h1>
-            <h2>Controle interno de produtos!</h2>
+        <h1>Bem-vindo a Construtora Neolítica</h1>
+            <h2>Controle Interno de Produtos</h2>
         <ul>
             <li><a href="{{route('produtos.create')}}">Cadastrar Novo Produto</a></li>
             <li><a href="{{route('produtos.ver')}}">Ver Produtos</a></li>

@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.titulo {
+    color: #000000;
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 2px 2px 4px #c4b6b6c9;
+    }
+
+.form {
+    background-color: #CCCCCC;
+    padding: 20px;
+    margin-top: 30px;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #666666;
+    border: 2px solid #000000; /* borda sólida com 2px de espessura e cor preta */
+    box-sizing: border-box; /* garante que o tamanho total do elemento inclua a borda */
+}
+
+.form label {
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.form input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form button {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #0000CC;
+}
